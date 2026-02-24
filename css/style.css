@@ -3,15 +3,31 @@
 }
 
 body {
-    margin: 0;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
-    font-optical-sizing: auto;
-    text-align: center
 }
 
 h1 {
     margin: 2em 0 1.25em 0;
+    text-align: center;
+}
+
+h2 {
+    max-width: 57em;
+    margin: 0 auto;
+}
+
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em 0;
+    max-width: 57em;
+    line-height: 2;
+}
+
+nav {
+    text-align: center;
 }
 
 nav a {
@@ -25,12 +41,12 @@ nav a:hover {
 }
 
 img {
-width: 70vw;
+    width: 70vw;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 5em 0;
+    padding: 0 0 4em 0;
 }
 
 iframe {
